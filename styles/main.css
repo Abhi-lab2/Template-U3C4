@@ -1,0 +1,38 @@
+#container {
+  display: flex;
+  border: 2px solid black;
+}
+#sidebar {
+  flex: 2;
+  border: 3px solid black;
+  background-color: white;
+}
+#sidebar > div {
+  margin: 15%;
+}
+#main {
+  flex: 8;
+  display: flex;
+  flex-wrap: wrap;
+}
+#sidebar > div {
+  text-align: center;
+}
+#search {
+  margin-left: 15%;
+}
+.img {
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+}
+.card {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  height: 480px;
+  width: 25%;
+  text-align: center;
+  padding: 2%;
+  margin: 10px;
+}
